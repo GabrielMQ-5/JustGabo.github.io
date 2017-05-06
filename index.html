@@ -5,16 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Pagina Principal</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-
-    </header>
-
-    <div class="container">
+    <!--NAVBAR-->
+    <nav class="navbar sticky-top navbar-toggleable-md navbar-inverse bg-inverse">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+            <img src="http://placehold.it/90x90" class="d-inline-block" width="30" height="30" alt="Logo de Catering Bus">
+            Catering Bus
+        </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Iniciar Sesion</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--END NAVBAR-->
+    <div class="container my-3">
         <div class="row">
-            <div class="col-12 col-md-9">
-                <div id="carouselPlatos" class="carousel slide my-3" data-ride="carousel">
+            <div class="col-12 col-md-9 mb-3">
+                <div id="carouselPlatos" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselPlatos" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselPlatos" data-slide-to="1"></li>
@@ -22,21 +37,21 @@
                     </ol>
                     <div class="carousel-inner">
                         <div id="carouselPlato-1" class="carousel-item active">
-                            <img class="d-block img-fluid w-100 h-100"  src="http://placehold.it/400x300" alt="First slide">
+                            <img class="d-block img-fluid w-100 h-100" src="http://placehold.it/800x400" alt="First slide">
                             <div class="carousel-caption d-none d-md-block">
                                 <h3>Plato 1</h3>
                                 <p>Descripcion Plato 1</p>
                             </div>
                         </div>
                         <div id="carouselPlato-2" class="carousel-item">
-                            <img class="d-block img-fluid w-100 h-100" src="http://placehold.it/400x300" alt="Second slide">
+                            <img class="d-block img-fluid w-100 h-100" src="http://placehold.it/800x400" alt="Second slide">
                             <div class="carousel-caption d-none d-md-block">
                                 <h3>Plato 2</h3>
                                 <p>Descripcion Plato 2</p>
                             </div>
                         </div>
                         <div id="carouselPlato-3" class="carousel-item">
-                            <img class="d-block img-fluid w-100 h-100" src="http://placehold.it/400x300" alt="Third slide">
+                            <img class="d-block img-fluid w-100 h-100" src="http://placehold.it/800x400" alt="Third slide">
                             <div class="carousel-caption d-none d-md-block">
                                 <h3>Plato 3</h3>
                                 <p>Descripcion Plato 3</p>
@@ -53,29 +68,70 @@
                     </a>
                 </div>
             </div>
-
             <div class="col-12 col-md-3">
                 <div class="row h-100">
-                    <div class="col-md-12 text-center col-12 my-3">
+                    <div class="col-md-12 text-center col-12 mb-3">
                         <button type="button" class="btn btn-secondary btn-block h-100 ">Pastas</button>
                     </div>
-                    <div class="col-md-12 text-center col-12 my-3">
+                    <div class="col-md-12 text-center col-12 mb-3">
                         <button type="button" class="btn btn-secondary btn-block h-100 ">Carta</button>
                     </div>
-                    <div class="col-md-12 text-center col-12 my-3">
+                    <div class="col-md-12 text-center col-12 ">
                         <button type="button" class="btn btn-secondary btn-block h-100 ">Menu del dia</button>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
-
+    <!--FOOTER-->
     <footer>
-
+        <div class="container mb-3">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                   <h5 class="font-weight-bold">Sobre Nosotros</h5>
+                    <p class="text-muted small">
+                        Somos una concesionaria de alimentos con mas de 17 años en el mercado, empleando tecnología, equipos y cuidados nutricionales e higiénicos sanitarios.
+                    </p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <h5 class="font-weight-bold">Contactanos</h5>
+                    <ul class="list-unstyled">
+                        <li class="small mb-2">
+                            <i class="fa fa-map-marker fa-lg d-inline mr-3" aria-hidden="true"></i>
+                            <p class="text-muted d-inline">Direccion</p>
+                        </li>
+                        <li class="small mb-2">
+                            <i class="fa fa-phone fa-lg d-inline mr-2" aria-hidden="true"></i>
+                            <p class="text-muted d-inline">Telefono</p>
+                        </li>
+                        <li class="small mb-2">
+                            <i class="fa fa-envelope fa-lg d-inline mr-1" aria-hidden="true"></i>
+                            <p class="text-muted d-inline">Correo</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4">
+                    <h5 class="font-weight-bold">Redes sociales</h5>
+                    <div class="row justify-content-between">
+                        <div class="col-3">
+                            <i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-3">
+                            <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-3">
+                            <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-3">
+                            <i class="fa fa-youtube fa-3x" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
-
-    <script src="js/jquery-3.1.1.min.js"></script>
+    <!--END FOOTER-->
+    <script src="js/jquery-3.1.1.slim.min.js"></script>
     <script src="js/tether.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
